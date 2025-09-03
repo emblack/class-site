@@ -4,6 +4,7 @@ if (yearEl) yearEl.textContent = String(new Date().getFullYear());
 // Data extracted and condensed from OUTLINE.md
 const schedule = [
   { part: 'part1', num: 1, title: 'Responsible AI Introduction', topics: ['Why do we care about fairness and other harms?', 'Common definitions and tools', 'Must-know studies'], readings: [
+    { title: 'Fair ML Book: Introduction', url: 'https://fairmlbook.org/introduction.html' },
     { title: 'Fair ML Book: Classification', url: 'https://fairmlbook.org/classification.html' },
     { title: 'Fair ML Book: Relative Fairness', url: 'https://fairmlbook.org/relative.html' }
   ]},
