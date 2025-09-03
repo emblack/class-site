@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CS-GY 9223: Responsible AI and the Law</title>
+  <link rel="stylesheet" href="assets/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1>CS-GY 9223 I: Responsible AI and the Law</h1>
+      <p class="tagline">A concise hub for schedule, readings, and course logistics</p>
+      <nav class="quick-links" aria-label="Quick links">
+        <a href="#schedule">Schedule</a>
+        <a href="#readings">Readings</a>
+        <a href="#logistics">Logistics</a>
+        <a href="#policies">Policies</a>
+        <a href="#resources">Resources</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="overview" class="panel">
+      <h2>Overview</h2>
+      <p>
+        This multidisciplinary course examines social and legal dimensions of harms from traditional and generative AI systems. You will learn to identify unfair, opaque, or otherwise problematic behaviors, conduct fairness audits for black-box and white-box systems, and apply practical techniques to mitigate harms such as discrimination, privacy violations, and arbitrariness. 
+        We will also cover when key laws apply and how to build compliant systems.
+      </p>
+      <p>
+        Through case studies in finance, housing, and employment, plus hands-on coding in Python, you will develop technical and legal tools to assess and improve AI systems in ways that are practically applicable in real organizations.
+      </p>
+    </section>
+    <section id="logistics" class="panel">
+      <h2>Logistics</h2>
+      <div class="grid two">
+        <div>
+          <ul class="meta">
+            <li><strong>Instructor:</strong> <a href="https://emblack.github.io/">Emily Black</a> (<a href="mailto:eb1850@nyu.edu">eb1850@nyu.edu</a>)</li>
+            <li><strong>Time/Location:</strong> Thursdays 2:00-4:30 EST, Jacobs Hall Room 301</li>
+            <li><strong>Office Hours:</strong> Thursdays 4:30-5:30 EST (370 Jay St. office 1155 or Zoom)</li>
+            <li><strong>TAs:</strong> Rachel Yuan (<a href="mailto:ry1023@nyu.edu">ry1023@nyu.edu</a>), Vaigarai Sathi (<a href="mailto:sv3013@nyu.edu">sv3013@nyu.edu</a>)</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="schedule" class="panel">
+      <div class="panel-header">
+        <h2>Schedule</h2>
+      </div>
+      <div class="table-wrapper">
+        <table class="schedule-table">
+          <thead>
+            <tr>
+              <th>Week</th>
+              <th>Date</th>
+              <th class="absorbing-column">Lecture</th>
+              <th>Homework</th>
+            </tr>
+          </thead>
+          <tbody id="schedule-tbody" aria-live="polite"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section id="readings" class="panel">
+      <div class="panel-header">
+        <h2>All Readings</h2>
+        <div class="controls">
+          <input id="reading-search" type="search" placeholder="Search readings" aria-label="Search readings">
+        </div>
+      </div>
+      <ul id="reading-list" class="reading-list" aria-live="polite"></ul>
+    </section>
+
+    <section id="policies" class="panel">
+      <h2>Policies</h2>
+      <ul class="meta">
+        <li><strong>Grading:</strong> Participation 15%, Quizzes 15%, Midterm 35%, Project 35%</li>
+        <li><strong>Deadlines:</strong> 5:00pm ET unless otherwise noted</li>
+        <li><strong>Coding:</strong> Python; notebooks in Google Colab</li>
+        <li>Quizzes are brief, in-person, and cover required readings.</li>
+        <li>Late submissions: 10% per day, not accepted after one week.</li>
+        <li>Attendance expected; under 80% attendance may result in failing.</li>
+        <li>Academic integrity and GenAI usage follow course-specific guidance.</li>
+      </ul>
+      <p>See the full outline for detailed policies.</p>
+    </section>
+
+    <section id="resources" class="panel">
+      <h2>Resources</h2>
+      <ul class="links">
+        <li><a href="https://colab.research.google.com/" target="_blank" rel="noopener">Google Colab</a></li>
+        <li><a href="https://fairmlbook.org/" target="_blank" rel="noopener">Fair ML Book</a></li>
+        <li><a href="OUTLINE.md" target="_blank" rel="noopener">Full Course Outline (Markdown)</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> CS-GY 9223 · NYU Tandon</p>
+    </div>
+  </footer>
+
+  <script src="assets/script.js"></script>
+</body>
+</html>
+
