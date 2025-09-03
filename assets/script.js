@@ -3,11 +3,11 @@ if (yearEl) yearEl.textContent = String(new Date().getFullYear());
 
 const schedule = [
   { part: 'part1', num: 1, title: 'Responsible AI Introduction', topics: ['Why do we care about fairness and other harms?', 'Common definitions and tools', 'Must-know studies (Machine Bias, Amazon Hiring)'], readings: [
-    { title: 'Fair ML Book: Introduction', url: 'https://fairmlbook.org/introduction.html' },
-    { title: 'Fair ML Book: Classification', url: 'https://fairmlbook.org/classification.html' },
-    { title: 'Fair ML Book: Relative Fairness', url: 'https://fairmlbook.org/relative.html' }
+    { title: 'Fair ML Book: Introduction', url: 'https://fairmlbook.org/introduction.html' }
   ]},
-    { part: 'part1', num: 2, title: 'Pipeline-Aware Responsible AI', topics: ['AI lifecycle and how harms enter', 'Model multiplicity'], readings: [
+  { part: 'part1', num: 2, title: 'Pipeline-Aware Responsible AI', topics: ['AI lifecycle and how harms enter', 'Model multiplicity'], readings: [
+    { title: 'Fair ML Book: Classification', url: 'https://fairmlbook.org/classification.html' },
+    { title: 'Fair ML Book: Relative Fairness', url: 'https://fairmlbook.org/relative.html' },
     { title: 'Pipeline-aware ML fairness (required)', url: 'https://arxiv.org/abs/2309.17337' }
   ]},
   { part: 'part1', num: 3, title: 'Anti-Discrimination Law and AI', topics: ['Disparate Treatment and Impact', 'Federal Housing Act, Equal Credit Opportunity Act, Title VII of the Civil Rights Act', 'State laws: Colorado Insurance Law, others'], readings: [
