@@ -5,13 +5,13 @@ const schedule = [
   { part: 'part1', num: 1, title: 'Responsible AI Introduction', topics: ['Why do we care about fairness and other harms?', 'Common definitions and tools', 'Must-know studies (Machine Bias, Amazon Hiring)'], readings: [
     { title: 'Fair ML Book: Introduction', url: 'https://fairmlbook.org/introduction.html' }
   ]},
-  { part: 'part1', num: 2, title: 'Fairness Basics, Definitions, Mitigations, Pipeline-Aware Responsible AI', topics: ['fairness definitions and basics', 'AI lifecycle and how harms enter', 'bias mitigations'], readings: [
-    { title: 'Fair ML Book: Classification (required)', url: 'https://fairmlbook.org/classification.html' },
-    { title: 'Fair ML Book: Relative Fairness (required)', url: 'https://fairmlbook.org/relative.html' },
-    { title: 'Pipeline-aware ML fairness (required)', url: 'https://arxiv.org/abs/2309.17337'},
-    {title: 'Fairness in Machine Learning: A survey (optional but will be required the following week so would love if you could do it!)', url: 'https://dl.acm.org/doi/pdf/10.1145/3616865'},
-    {title: '(Extra/enrichment) Fair Prediction with Disparate Impact', url: 'https://arxiv.org/pdf/1610.07524'},
-    {title: '(Extra/enrichment) The possibility of fairness', url : 'https://arxiv.org/pdf/2302.06347'}
+  { part: 'part1', num: 2, title: 'Fairness Basics, Definitions, Mitigations, Pipeline-Aware Responsible AI', topics: ['Fairness definitions and basics', 'AI lifecycle and how harms enter', 'Bias mitigations'], readings: [
+    { title: 'Fair ML Book: Classification', url: 'https://fairmlbook.org/classification.html', extra: '(required)' },
+    { title: 'Fair ML Book: Relative Fairness', url: 'https://fairmlbook.org/relative.html', extra: '(required)' },
+    { title: 'Pipeline-aware ML fairness', url: 'https://arxiv.org/abs/2309.17337', extra: '(required)'},
+    {title: 'Fairness in Machine Learning: A survey', url: 'https://dl.acm.org/doi/pdf/10.1145/3616865', extra: '(optional but will be required the following week so would love if you could do it!)'},
+    {title: 'Fair Prediction with Disparate Impact', url: 'https://arxiv.org/pdf/1610.07524', extra: '(Extra/enrichment)'},
+    {title: 'The possibility of fairness', url : 'https://arxiv.org/pdf/2302.06347', extra: '(Extra/enrichment)'}
   ]},
   { part: 'part1', num: 3, title: 'Anti-Discrimination Law and AI', topics: ['Disparate Treatment and Impact', 'Federal Housing Act, Equal Credit Opportunity Act, Title VII of the Civil Rights Act', 'State laws: Colorado Insurance Law, others'], readings: [
     { title: 'Fair ML Book: Legal', url: 'https://fairmlbook.org/legal.html' },
@@ -94,7 +94,7 @@ function renderScheduleTable(list) {
     })();
 
     const topicsHtml = item.topics?.length ? `<ul class="meta">${item.topics.map(t => `<li>${t}</li>`).join('')}</ul>` : '';
-    const readingsHtml = item.readings?.length ? `<div class="label"><i>Readings:</i></div><ul class="links">${item.readings.map(r => `<li><a href="${r.url}" target="_blank" rel="noopener">${r.title}</a></li>`).join('')}</ul>` : '';
+    const readingsHtml = item.readings?.length ? `<div class="label"><i>Readings:</i></div><ul class="links">${item.readings.map(r => `<li><a href="${r.url}" target="_blank" rel="noopener">${r.title}</a>${r.extra ? ` ${r.extra}` : ''}</li>`).join('')}</ul>` : '';
 
     tr.innerHTML = `
       <td>${week}</td>
@@ -110,7 +110,7 @@ function renderScheduleTable(list) {
 const readingSet = new Map();
 for (const lec of schedule) {
   for (const r of (lec.readings || [])) {
-    if (!readingSet.has(r.url)) readingSet.set(r.url, r.title);
+    if (!readingSet.has(r.url)) readingSet.set(r.url, { title: r.title, extra: r.extra });
   }
 }
 
@@ -118,10 +118,10 @@ function renderReadings() {
   const q = document.getElementById('reading-search').value.trim().toLowerCase();
   const list = document.getElementById('reading-list');
   list.innerHTML = '';
-  for (const [url, title] of readingSet.entries()) {
-    if (q && !(title.toLowerCase().includes(q) || url.toLowerCase().includes(q))) continue;
+  for (const [url, reading] of readingSet.entries()) {
+    if (q && !(reading.title.toLowerCase().includes(q) || url.toLowerCase().includes(q))) continue;
     const li = document.createElement('li');
-    li.innerHTML = `<a href="${url}" target="_blank" rel="noopener">${title}</a>`;
+    li.innerHTML = `<a href="${url}" target="_blank" rel="noopener">${reading.title}</a>${reading.extra ? ` ${reading.extra}` : ''}`;
     list.appendChild(li);
   }
 }
