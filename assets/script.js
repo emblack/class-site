@@ -5,10 +5,13 @@ const schedule = [
   { part: 'part1', num: 1, title: 'Responsible AI Introduction', topics: ['Why do we care about fairness and other harms?', 'Common definitions and tools', 'Must-know studies (Machine Bias, Amazon Hiring)'], readings: [
     { title: 'Fair ML Book: Introduction', url: 'https://fairmlbook.org/introduction.html' }
   ]},
-  { part: 'part1', num: 2, title: 'Pipeline-Aware Responsible AI', topics: ['AI lifecycle and how harms enter', 'Model multiplicity'], readings: [
-    { title: 'Fair ML Book: Classification', url: 'https://fairmlbook.org/classification.html' },
-    { title: 'Fair ML Book: Relative Fairness', url: 'https://fairmlbook.org/relative.html' },
-    { title: 'Pipeline-aware ML fairness (required)', url: 'https://arxiv.org/abs/2309.17337' }
+  { part: 'part1', num: 2, title: 'Fairness Basics, Definitions, Mitigations, Pipeline-Aware Responsible AI', topics: ['fairness definitions and basics', 'AI lifecycle and how harms enter', 'bias mitigations'], readings: [
+    { title: 'Fair ML Book: Classification' (required), url: 'https://fairmlbook.org/classification.html' },
+    { title: 'Fair ML Book: Relative Fairness' (required), url: 'https://fairmlbook.org/relative.html' },
+    { title: 'Pipeline-aware ML fairness' (required), url: 'https://arxiv.org/abs/2309.17337'},
+    {title: 'Fairness in Machine Learning: A survey' (required), url: 'https://dl.acm.org/doi/pdf/10.1145/3616865'},
+    {title: (Extra/enrichment): 'Fair Prediction with Disparate Impact', url: 'https://arxiv.org/pdf/1610.07524'},
+    {title: (Extra/enrichment): 'The possibility of fairness', url : 'https://arxiv.org/pdf/2302.06347'}
   ]},
   { part: 'part1', num: 3, title: 'Anti-Discrimination Law and AI', topics: ['Disparate Treatment and Impact', 'Federal Housing Act, Equal Credit Opportunity Act, Title VII of the Civil Rights Act', 'State laws: Colorado Insurance Law, others'], readings: [
     { title: 'Fair ML Book: Legal', url: 'https://fairmlbook.org/legal.html' },
