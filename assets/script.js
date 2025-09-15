@@ -15,8 +15,7 @@ const schedule = [
   ]},
   { part: 'part1', num: 3, title: 'Anti-Discrimination Law and AI', topics: ['Disparate Treatment and Impact', 'Federal Housing Act, Equal Credit Opportunity Act, Title VII of the Civil Rights Act', 'State laws: Colorado Insurance Law, others'], readings: [
     { title: 'Fair ML Book: Legal', url: 'https://fairmlbook.org/legal.html' },
-    { title: 'Race-Aware Algorithms (CLR)', url: 'https://www.californialawreview.org/print/race-aware-algorithms-fairness-nondiscrimination-and-affirmative-action' },
-    { title: 'Less Discriminatory Algorithms', url: 'https://www.law.georgetown.edu/georgetown-law-journal/in-print/volume-113/volume-113-issue-1-october-2024/less-discriminatory-algorithms/' }
+    {title: 'Fairness in Machine Learning: A survey', url: 'https://dl.acm.org/doi/pdf/10.1145/3616865', extra: '(especially section 1, 2, and 4.3 onwards)'},
   ]},
   { part: 'part1', num: 4, title: 'Privacy, Transparency, and Fairness', topics: ['Privacy, Transparency and Fairness', 'Privacy Act of 1974, Paperwork Reduction Act', 'California Consumer Privacy Act', 'Disclosure requirements', 'General Data Protection Regulation'], readings: [
     { title: 'Privacy-Transparency-Fairness (paper)', url: 'https://digitalgovernmenthub.org/wp-content/uploads/2023/08/Gupta_et_al_Privacy_Bias.pdf' }
