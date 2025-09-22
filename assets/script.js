@@ -18,7 +18,10 @@ const schedule = [
     {title: 'Fairness in Machine Learning: A survey', url: 'https://dl.acm.org/doi/pdf/10.1145/3616865', extra: '(especially section 1, 2, and 4.3 onwards)'},
   ]},
   { part: 'part1', num: 4, title: 'Privacy, Transparency, and Fairness', topics: ['Privacy, Transparency and Fairness', 'Privacy Act of 1974, Paperwork Reduction Act', 'California Consumer Privacy Act', 'Disclosure requirements', 'General Data Protection Regulation'], readings: [
-    { title: 'Privacy-Transparency-Fairness (paper)', url: 'https://digitalgovernmenthub.org/wp-content/uploads/2023/08/Gupta_et_al_Privacy_Bias.pdf' }
+    { title: 'Race-Aware Algorithms - Pauline Kim', url: 'https://www.californialawreview.org/print/race-aware-algorithms-fairness-nondiscrimination-and-affirmative-action' },
+    { title: 'Unfair AI: How FTC intervention can overcome the limitations of discrimination law', url: 'https://scholarship.law.upenn.edu/cgi/viewcontent.cgi?article=9812&context=penn_law_review'},
+    { title: 'The Privacy-Bias Tradeoff', url: 'https://digitalgovernmenthub.org/wp-content/uploads/2023/08/Gupta_et_al_Privacy_Bias.pdf', extra: '(Extra-credit question)' },
+    { title: 'Law for Computer Scientists and Other Folk', url: 'https://www.cohubicol.com/assets/uploads/law_for_computer_scientists.pdf', extra: '(Not on quiz / nor required; for more info about legal background relevant for computer scientists)' }
   ]},
   { part: 'part1', num: 5, title: 'Other Concerns: Arbitrariness', topics: ['Procedural Fairness'], readings: [
     { title: 'Procedural Fairness paper', url: 'https://dl.acm.org/doi/10.1145/3531146.3533149' },
