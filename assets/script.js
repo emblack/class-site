@@ -24,8 +24,12 @@ const schedule = [
     { title: 'Law for Computer Scientists and Other Folk', url: 'https://www.cohubicol.com/assets/uploads/law_for_computer_scientists.pdf', extra: '(Not on quiz / nor required; for more info about legal background relevant for computer scientists)' }
   ]},
   { part: 'part1', num: 5, title: 'Other Concerns: Arbitrariness', topics: ['Procedural Fairness'], readings: [
-    { title: 'Procedural Fairness paper', url: 'https://dl.acm.org/doi/10.1145/3531146.3533149' },
-    { title: 'Correlated Errors in LLMs', url: 'https://arxiv.org/pdf/2506.07962'}
+    { title: 'Null Compliance: NYC Local Law 144 and the Challenges of Algorithm Accountability', url: 'https://dl.acm.org/doi/pdf/10.1145/3630106.3658998' },
+    { title: 'Colorado AI Act Two-Pager Cheat Sheet', url: 'https://fpf.org/wp-content/uploads/2024/05/FPF-FINAL-CO-SB-205-Two-Pager-.pdf' },
+    { title: 'Algorithmic discrimination under the AI Act and the GDPR', url: 'https://www.europarl.europa.eu/RegData/etudes/ATAG/2025/769509/EPRS_ATA%282025%29769509_EN.pdf'},
+    { title: 'Using sensitive data to de-bias AI systems: Article 10(5) of the EU AI act', url: 'https://www.sciencedirect.com/science/article/pii/S026736492500010X'},
+    { title: 'Auditing the Audits: Lessons for Algorithmic Accountability from Local Law 144s Bias Audits', url: 'https://dl.acm.org/doi/pdf/10.1145/3715275.3732004', extra: '(Extra/enrichment)'},
+    { title: 'Algorithmic Unfairness through the Lens of EU Non-Discrimination Law: Or Why the Law is not a Decision Tree', url: 'https://dl.acm.org/doi/abs/10.1145/3593013.3594044 ', extra: '(Extra/enrichment)'}
   ]},
   { part: 'part2', num: 6, title: 'Case Study: Finance', topics: ['Differences between academic and industry fairness work', 'Compliance with and Enforcement of ECOA disparate impact requirements'], readings: []},
   { part: 'part2', num: 7, title: 'Case Study: Advertising (Housing) and Employment', topics: ['HUD vs Meta', 'VRS', 'Workday'], readings: [
