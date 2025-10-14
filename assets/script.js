@@ -31,7 +31,15 @@ const schedule = [
     { title: 'Auditing the Audits: Lessons for Algorithmic Accountability from Local Law 144s Bias Audits', url: 'https://dl.acm.org/doi/pdf/10.1145/3715275.3732004', extra: '(Extra/enrichment)'},
     { title: 'Algorithmic Unfairness through the Lens of EU Non-Discrimination Law: Or Why the Law is not a Decision Tree', url: 'https://dl.acm.org/doi/abs/10.1145/3593013.3594044 ', extra: '(Extra/enrichment)'}
   ]},
-  { part: 'part2', num: 6, title: 'Case Study: Finance', topics: ['Differences between academic and industry fairness work', 'Compliance with and Enforcement of ECOA disparate impact requirements'], readings: []},
+  { part: 'part2', num: 6, title: 'Case Study: Finance', topics: ['Differences between academic and industry fairness work', 'Compliance with and Enforcement of ECOA disparate impact requirements'], readings: [
+    { title: 'Improving Fairness in Machine Learning Systems: What Do Industry Practitioners Need?', url: 'https://arxiv.org/pdf/1812.05239' },
+    { title: 'Using First Name Information to Improve Race and Ethnicity Classification', url: 'https://www.tandfonline.com/doi/full/10.1080/2330443X.2018.1427012#d1e918', extra: '(Sections 1 and 2)' },
+    { title: 'Estimating Racial Disparities When Race is Not Observed', url: 'https://imai.fas.harvard.edu/research/files/birdie.pdf', extra: '(Sections 1 - 3)' },
+    { title: 'Operationalizing the Search for Less Discriminatory Alternatives in Fair Lending', url: 'https://facctconference.org/static/papers24/facct24-27.pdf'},
+    { title: 'The Legal Duty to Search for Less Discriminatory Algorithms', url: 'https://arxiv.org/pdf/2406.06817', extra: '(Extra/enrichment)'},
+    { title: 'On the Current and Emerging Challenges of Developing Fair and Ethical AI Solutions in Financial Services', url: 'https://dl.acm.org/doi/pdf/10.1145/3490354.3494408?casa_token=HHPdLkjwiHMAAAAA:u82LUj6hzShP_zb_iGF-sEMVSEPYLCMV6DR12ujcrQvYvXGRGEg36PhqMZiC8VtwuyesoGFdWHPg0w', extra: '(Extra/enrichment)'}
+
+  ]},
   { part: 'part2', num: 7, title: 'Case Study: Advertising (Housing) and Employment', topics: ['HUD vs Meta', 'VRS', 'Workday'], readings: [
     { title: 'NYTimes coverage', url: 'https://www.nytimes.com/2019/03/28/us/politics/facebook-housing-discrimination.html' },
     { title: 'Workday lawsuit overview', url: 'https://www.fisherphillips.com/en/news-insights/discrimination-lawsuit-over-workdays-ai-hiring-tools-can-proceed-as-class-action-6-things.html' }
