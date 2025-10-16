@@ -41,10 +41,12 @@ const schedule = [
 
   ]},
   { part: 'part2', num: 7, title: 'Case Study: Advertising (Housing) and Employment', topics: ['HUD vs Meta', 'VRS', 'Workday'], readings: [
-    { title: 'NYTimes coverage', url: 'https://www.nytimes.com/2019/03/28/us/politics/facebook-housing-discrimination.html' },
-    { title: 'Workday lawsuit overview', url: 'https://www.fisherphillips.com/en/news-insights/discrimination-lawsuit-over-workdays-ai-hiring-tools-can-proceed-as-class-action-6-things.html' }
+    { title: 'Meta vs HUD (Lawsuit)', url: 'https://www.justice.gov/usao-sdny/pr/united-states-attorney-resolves-groundbreaking-suit-against-meta-platforms-inc-formerly' },
+    { title: 'Description of Charges Against Meta', url: 'https://web.archive.org/web/20240201025618/https://www.hud.gov/sites/dfiles/Main/documents/HUD_v_Facebook.pdf' },
+    { title: 'Towards Fairness in Personalized Ads', url: 'https://scontent-lga3-1.xx.fbcdn.net/v/t39.8562-6/323711583_5456919567751502_3452466074306090865_n.pdf?_nc_cat=102&ccb=1-7&_nc_sid=b8d81d&_nc_ohc=y02NWo2bJUYQ7kNvwEGtGHW&_nc_oc=Adn1drUmhe0P-lqcviIRvgaAJTsZWbTEXKKbQ_j_7PNQq98BmTfbWXMXqqVDMfIMczMwvqxBI7dO0yL1nVFueJ-E&_nc_zt=14&_nc_ht=scontent-lga3-1.xx&_nc_gid=kXKwDUMmSl9MprppZwFQKg&oh=00_AffeU5JFHFCQVLSKNeZcYArzNlNkmzxKTsemCTzVnIzFWw&oe=68F45FFA' },
+    { title: 'Mobley vs Workday', url: 'https://www.fisherphillips.com/en/news-insights/ai-workplace-screener-faces-bias-lawsuit.html' }
   ]},
-  { part: 'part2', num: 8, title: 'Midterm Exam (Tentative) ', topics: ['Topics covered till Lecture 7'], readings: [
+  { part: 'part2', num: 8, title: 'Guest Lecture by Nick Hengrui', topics: ['Topics (TBA)'], readings: [
   ]},
   { part: 'part3', num: 9, title: 'GenAI: Opportunities & Harms', topics: ['Allocative Harms', 'Representational Harms'], readings: [
     { title: 'Representational Harms paper', url: 'https://dl.acm.org/doi/pdf/10.1145/3531146.3533088' },
