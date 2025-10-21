@@ -46,9 +46,9 @@ const schedule = [
     { title: 'Towards Fairness in Personalized Ads', url: 'https://scontent-lga3-1.xx.fbcdn.net/v/t39.8562-6/323711583_5456919567751502_3452466074306090865_n.pdf?_nc_cat=102&ccb=1-7&_nc_sid=b8d81d&_nc_ohc=y02NWo2bJUYQ7kNvwEGtGHW&_nc_oc=Adn1drUmhe0P-lqcviIRvgaAJTsZWbTEXKKbQ_j_7PNQq98BmTfbWXMXqqVDMfIMczMwvqxBI7dO0yL1nVFueJ-E&_nc_zt=14&_nc_ht=scontent-lga3-1.xx&_nc_gid=kXKwDUMmSl9MprppZwFQKg&oh=00_AffeU5JFHFCQVLSKNeZcYArzNlNkmzxKTsemCTzVnIzFWw&oe=68F45FFA' },
     { title: 'Mobley vs Workday', url: 'https://www.fisherphillips.com/en/news-insights/ai-workplace-screener-faces-bias-lawsuit.html' }
   ]},
-  { part: 'part2', num: 8, title: 'Guest Lecture by Nick Hengrui', topics: ['Machine Unlearning', 'Homework Review (TAs)'], readings: [
+  { part: 'part2', num: 8, title: 'Guest Lecture by Nick (Hengrui) Jia', topics: ['Machine Unlearning', 'Homework Review (TAs)'], readings: [
     { title: 'Machine Unlearning', url: 'https://arxiv.org/pdf/1912.03817', extra: '(first three sections, no math necessary)' },
-    { title: 'On the Necessity of Auditable Algorithmic Definitions for Machine Unlearning', url: 'https://arxiv.org/pdf/2110.11891'},
+    { title: 'On the Necessity of Auditable Algorithmic Definitions for Machine Unlearning', url: 'https://arxiv.org/pdf/2110.11891', extra: '(no math necessary)' },
     { title: 'Who is Harry Potter?', url: 'https://www.microsoft.com/en-us/research/articles/whos-harry-potter-making-llms-forget-2/', extra: '(Extra/enrichment)'},
     { title: 'The WMDP Benchmark', url: 'https://safe.ai/blog/wmdp-benchmark', extra: '(Extra/enrichment)'}
   ]},
