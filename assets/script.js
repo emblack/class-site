@@ -56,16 +56,17 @@ const schedule = [
     { title: 'Representational Harms paper', url: 'https://dl.acm.org/doi/pdf/10.1145/3531146.3533088' },
     { title: 'Opportunities and Risks of Foundation Models', url: 'https://arxiv.org/abs/2108.07258' }
   ]},
-  { part: 'part3', num: 10, title: 'GenAI: Instability & Security', topics: ['Instability in decisionmaking', 'Security threats in GenAI systems'], readings: [
+  { part: 'part3', num: 10, title: 'Midterm Exam', topics: ['All topics covered until Lecture 9'], readings: [
+  ]},
+  { part: 'part3', num: 11, title: 'GenAI: Instability & Security', topics: ['Instability in decisionmaking', 'Security threats in GenAI systems'], readings: [
     { title: 'Auditing LLMs (hiring)', url: 'https://5harad.com/papers/auditing-llms.pdf' },
     { title: 'Do Large Language Models Discriminate in Hiring Decisions on the Basis of Race, Ethnicity, and Gender?', url: 'https://aclanthology.org/2024.acl-short.37/'}
   ]},
-  { part: 'part3', num: 11, title: 'GenAI in High-Stakes Decisions', topics: ['UDAP', 'Discrimination Testing for GenAI'], readings: [
+  { part: 'part4', num: 12, title: 'GenAI in High-Stakes Decisions', topics: ['UDAP', 'Discrimination Testing for GenAI'], readings: [
     { title: 'Towards Effective Discrimination Testing for GenAI', url: 'https://arxiv.org/abs/2412.21052' },
     { title: 'UDAP Overview', url: 'https://www.federalreserve.gov/boarddocs/supmanual/cch/200806/ftca.pdf' },
     { title: 'Fairness and Privacy in GenAI', url: 'https://journals.library.columbia.edu/index.php/stlr/article/view/12765/6289' }
   ]},
-  { part: 'part4', num: 12, title: 'Student-Selected Topic', topics: ['TBD based on survey'], readings: []},
   { part: 'part4', num: 13, title: 'Scheduling Flexibility', topics: ['TBD'], readings: []},
   { part: 'part4', num: 14, title: 'Project Presentations', topics: ['Presentations'], readings: []}
 ];
